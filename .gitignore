@@ -2,9 +2,11 @@
 .lsp
 .shadow-cljs
 .clj-kondo/.cache
+.clj-kondo/*
+!.clj-kondo/config.edn
 .shadow_cljs
 public/assets/app
-
+.cpcache
 
 
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
