@@ -1,0 +1,23 @@
+{:paths ["src/main"]
+
+ :deps
+ {org.clojure/clojure              {:mvn/version "1.12.0-rc1"}
+  thheller/shadow-cljs             {:mvn/version "2.28.11"}
+  missionary/missionary            {:mvn/version "b.39"}
+  cljs-bean/cljs-bean              {:mvn/version "1.9.0"}
+  applied-science/js-interop       {:mvn/version "0.4.2"}
+  com.hyperfiddle/rcf              {:mvn/version "20220926-202227"}
+  io.github.mentat-collective/emmy {:git/sha "53fd9909b835e7eeb21f798ba61fd7e6b5251cfc"}
+  org.mentat/emmy-viewers          {:git/url "https://github.com/mentat-collective/emmy-viewers.git"
+                                    :git/sha "5afd6de120391c668e8573204321ebe4442746dc"
+                                    :exclusions [org.mentat/emmy]
+                                    }
+  djblue/portal                    {:mvn/version "0.57.2"}
+  }
+
+ :aliases
+ {:dev
+  {:extra-paths ["src/dev"]
+   :extra-deps  {}}}
+
+ }
